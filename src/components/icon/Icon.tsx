@@ -1,5 +1,5 @@
 import React from 'react';
-import iconsSprite from '../../assets/images/icons-sprite.svg'
+import iconsSprite from '../../../src/assets/images/icons-sprite.svg'
 
 type IconPropsType = {
   iconId: string
@@ -10,10 +10,17 @@ type IconPropsType = {
 
 export const Icon =(props: IconPropsType) => {
  return (
-
-   <svg width={props.width || '35'} height={props.width || '35'} viewBox={props.viewBox || "0 0 50 50"} fill="none" xmlns="http://www.w3.org/2000/svg">
-     <use xlinkHref={`${iconsSprite}#${props.iconId}`}></use>
-   </svg>
-   
-);
+     <svg width={props.width || '24'} height={props.width || '24'} viewBox={props.viewBox || "0 0 34 34"} fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+         <use xlinkHref={`${iconsSprite}#${props.iconId}`}></use>
+     </svg>
+ );
+};
+export const IconContact =(props: IconPropsType) => {
+    return (
+        <svg width={props.width || '24'} height={props.width || '24'} viewBox={props.viewBox || "0 0 24 24"} fill="none"
+             xmlns="http://www.w3.org/2000/svg">
+            <use xlinkHref={`${iconsSprite}#${props.iconId}`}></use>
+        </svg>
+    );
 };

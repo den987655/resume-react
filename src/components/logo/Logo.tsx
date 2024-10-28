@@ -1,23 +1,23 @@
 import React from 'react'
-import styled from 'styled-components'
-import { Icon } from '../icon/Icon'
+import {Icon} from '../icon/Icon'
+import styled from "styled-components";
 
 export const Logo = () => {
-	return (
-		<><a href='#'>
-			<Icon iconId={'facebook'}/>
-		</a><a href='#'>
-			<img src='/logo.png' alt='logo' />
-		</a><a href='#'>
-			<img src='/logo.png' alt='logo' />
-		</a><a href='#'>
-			<img src='/logo.png' alt='logo' />
-		</a><a href='#'>
-			<img src='/logo.png' alt='logo' />
-		</a><a href='#'>
-			<img src='/logo.png' alt='logo' />
-		</a></>
-)
+    return (
+        <LinkStyles>
+            <span>Richard Max</span>
+        </LinkStyles>
+    )
 }
 
-export default Logo
+const LinkStyles = styled.div`
+    span {
+        font-weight: 900;
+        font-size: 2.8rem;
+        letter-spacing: -0.07em;
+        color: #fff;
+        margin-right: 10px;
+    }
+`
+
+

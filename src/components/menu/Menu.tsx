@@ -1,20 +1,37 @@
 import React from 'react'
 import styled from 'styled-components'
+import {IconContact} from "../icon/Icon";
 
 export const Menu = () => {
 	return (
-		<nav>
+		<StyledMenu>
 			<ul>
-				<li><a>lee.tommy22@gmail.com</a></li>
-				<li><a>+001 235 1245 2356</a></li>
+				<li><a>Story</a></li>
+				<li><a>Work</a></li>
+				<li><a>Scribbles</a></li>
+				<li><a>Contact</a></li>
 			</ul>
-		</nav>
+		</StyledMenu>
 	)
 }
 
-const StyledMenu = styled.div`
-	ul {
+const StyledMenu = styled.nav`
+	display: flex;
+	justify-content: flex-end; 
+	align-items: center;
+	flex-grow: 1;
+
+	& ul {
 		display: flex;
-		gap: 30px;
+	}
+
+	li {
+		font-family: var(--font-family), serif;
+		font-weight: 400;
+		font-size: 1.8rem;
+		line-height: 150%;
+		color: #fff;
+		margin-right: 16px;
+		margin-left: 12px;
 	}
 `
