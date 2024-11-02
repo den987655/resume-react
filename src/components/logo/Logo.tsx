@@ -1,16 +1,22 @@
 import React from 'react'
-import {Icon} from '../icon/Icon'
+import {Icon, IconContact, IconLogo} from '../icon/Icon'
 import styled from "styled-components";
 
 export const Logo = () => {
     return (
         <LinkStyles>
-            <span>Richard Max</span>
+            <a href='#'><IconLogo iconId={'logo'}/></a>
+            <span>Mirrorfolio</span>
         </LinkStyles>
     )
 }
 
 const LinkStyles = styled.div`
+    display: flex;
+    align-items: center;
+    a {
+        padding-right: 8px;
+    }
     span {
         font-weight: 900;
         font-size: 2.8rem;

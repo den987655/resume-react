@@ -1,15 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
-import {IconContact} from "../icon/Icon";
 
-export const Menu = () => {
+export const Menu = (props: {menuItems: Array<string>}) => {
 	return (
 		<StyledMenu>
 			<ul>
-				<li><a>Story</a></li>
-				<li><a>Work</a></li>
-				<li><a>Scribbles</a></li>
-				<li><a>Contact</a></li>
+				{props.menuItems.map((item, index) => {
+					return <li key={index}><a href="#">{item}</a></li>
+				})}
 			</ul>
 		</StyledMenu>
 	)

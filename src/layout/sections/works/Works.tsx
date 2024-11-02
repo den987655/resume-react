@@ -1,18 +1,17 @@
 import React from 'react';
 import styled from "styled-components";
-import {FlexWrapper} from "../../components/FlexWrapper";
-import {SkillsItem} from "../../components/SkillsItem";
+import {FlexWrapper} from "../../../components/FlexWrapper";
+import {StyledStripe} from "../../../components/stripe/Stripe";
+import {SectionTittle} from "../../../components/SectionTitle";
 
-export const Skills = () => {
+export const Works = () => {
     return (
-        <FlexWrapper align={"center"} width={"1024px"} justify={"space-between"}>
-        <StyledSkills>
 
-            <SectionTittle>
-                <h2>Selected Work</h2>
-                <div></div>
-            </SectionTittle>
-            <Experience>
+        <StyledWorks>
+
+                <SectionTittle>Selected Work</SectionTittle>
+                <StyledStripe margin={"0px 0 16px 0"} />
+            <FlexWrapper align={"center"} justify={"space-between"}>
                     <ExperienceItem>
                         <h3>Menteor- A platform for
                             skill based one-to-one
@@ -40,33 +39,14 @@ export const Skills = () => {
                             frontend developer for the…</p>
                         <a href="#">View Project</a>
                     </ExperienceItem>
-                </Experience>
+            </FlexWrapper>
+        </StyledWorks>
 
-
-        </StyledSkills>
-        </FlexWrapper>
     );
 };
 
-const StyledSkills = styled.section`
-    
-`
-
-const SectionTittle = styled.div`
-    h2 {
-        font-family: var(--font-family);
-        font-weight: 600;
-        font-size: 35px;
-        line-height: 114%;
-        color: var(--catskill-white);
-        padding-bottom: 8px;
-    }
-    div {
-    border: 1px solid var(--mirage);
-    width: 992px;
-    height: 2px;
-    padding: 7px 0;
-}
+const StyledWorks = styled.section`
+    padding-bottom: 48px;
 `
 
 const Skill = styled.div`
@@ -76,8 +56,12 @@ const Skill = styled.div`
 const Experience = styled.div`
     //display: grid;
     //grid-template-columns: repeat(auto-fit, minmax(100px, 300px));
-    display: flex;
-    gap: 16px;
+    //display: flex;
+    //gap: 16px;
+
+    @media (max-width: 390px) {
+        flex-direction: column;
+    }
 `
 
 const ExperienceItem = styled.div`

@@ -10,11 +10,12 @@ export const GlobalStyles = createGlobalStyle`
 	}
 	
 	body {
-		background-color: #fff;
+		background-color: #0d0d0d;
 	}
 	a {
+        color: var(--catskill-white);
 		text-decoration: none;
-        
+        cursor: pointer;
 	}
     
     li {

@@ -2,7 +2,7 @@ import React from 'react'
 import {Icon} from '../icon/Icon'
 import styled from "styled-components";
 
-export const Link = () => {
+export const IconsLink = () => {
     return (
         <LinkStyles>
             <ul>
@@ -17,7 +17,6 @@ export const Link = () => {
 const LinkStyles = styled.div`
     ul {
         display: flex;
-        
     }
     li {
         margin-right: 16px;

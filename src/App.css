@@ -3,7 +3,7 @@
 	font-size: 10px;
 
 	--nero: #fff;
-	--www.mirrorfolio.com-cod-gray: #0d0d0d;
+	--cod-gray: #0d0d0d;
 	--santas-gray: #a1a1aa;
 	--catskill-white: #f8fafc;
 	--mischka: #d1d5db;
@@ -12,14 +12,13 @@
 	--gull-gray: #94a3b8;
 	--woodsmoke: rgba(24, 24, 29, 0.6);
 	--emperor: #525252;
-	--www.mirrorfolio.com-pickled-bluewood: #334155;
-	--www.mirrorfolio.com-ebony-clay: #1f2937;
-	--www.mirrorfolio.com-athens-gray: #f3f4f6;
-	--www.mirrorfolio.com-gray-chateau: #9ca3af;
-	--www.mirrorfolio.com-ebony: #0f172a;
-	--www.mirrorfolio.com-black: #000;
-	--www.mirrorfolio.com-nero-40%: rgba(255, 255, 255, 0.4);
-	--www.mirrorfolio.com-athens-gray: #e5e7eb;
+	--pickled-bluewood: #334155;
+	--ebony-clay: #1f2937;
+	--athens-gray: #f3f4f6;
+	--gray-chateau: #9ca3af;
+	--ebony: #0f172a;
+	--black: #000;
+	--nero-40%: rgba(255, 255, 255, 0.4);
 	--background: 0, 0%, 5%;
 }
 body {
