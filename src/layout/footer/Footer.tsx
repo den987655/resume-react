@@ -3,12 +3,15 @@ import styled from "styled-components";
 import {FlexWrapper} from "../../components/FlexWrapper";
 import {Logo} from "../../components/logo/Logo";
 import {StyledStripe} from "../../components/stripe/Stripe";
+import {theme} from "../../components/styles/Theme";
+import {Container} from "../../components/Container";
 
 export const Footer = () => {
     return (
         <StyledBlock>
             <StyledStripe margin={"20px 0"} />
-            <FlexWrapper align={"center"} justify={"space-between"}>
+            <Container>
+            <FlexWrapper align={"center"} justify={"space-between"} wrap={"wrap"}>
                 <Content>
                     <LogoBlock>
                         <Logo></Logo>
@@ -29,7 +32,7 @@ export const Footer = () => {
                     <p>All Rights Reserved.</p>
                 </Bottom>
             </FlexWrapper>
-
+            </Container>
         </StyledBlock>
     );
 };
@@ -62,12 +65,12 @@ const Content = styled.div`
     display: flex;
     justify-content: space-between;
     width: 100%;
-
-    @media (max-width: 390px) {
+    
+    @media ${theme.media.mobile} {
         display: flex;
         flex-direction: column;
-        padding: 10px;
-        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 16px;
 
         width: 100%;
     }
@@ -92,6 +95,9 @@ const Links = styled.div`
 const SectionWrapper = styled.div`
     padding: 20px;
     padding-bottom: 0;
+    @media ${theme.media.mobile} {
+        width: 100%;
+    }
     h3 {
         font-family: var(--font-family);
         font-weight: 500;
@@ -127,9 +133,12 @@ const Bottom = styled.div`
         color: var(--santas-gray);
     }
 
-    @media (max-width: 390px) {
-        
-        width: 0%;
+    @media ${theme.media.mobile} {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px;
+        width: 100%;
     }
 `
 

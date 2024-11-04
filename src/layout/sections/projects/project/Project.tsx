@@ -39,7 +39,7 @@ const StyledProject = styled.div`
     padding: 21px;
     border: 1px solid var(--mirage);
     border-radius: 12px;
-    max-width: 320px;
+    max-width: 100%;
     width: 100%;
     height: 456px;
     backdrop-filter: blur(12px);
@@ -61,6 +61,7 @@ const ProjectText = styled.p`
     line-height: 148%;
     color: var(--emperor);
     padding-bottom: 12px;
+    text-align: center;
 `
 const ProjectLink = styled.a`
     font-family: var(--font-family);

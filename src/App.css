@@ -7,7 +7,7 @@
 	--santas-gray: #a1a1aa;
 	--catskill-white: #f8fafc;
 	--mischka: #d1d5db;
-	--nero-0.2%: rgba(255, 255, 255, 0);
+	--nero-02: rgba(255, 255, 255, 0);
 	--mirage: #1e293b;
 	--gull-gray: #94a3b8;
 	--woodsmoke: rgba(24, 24, 29, 0.6);
@@ -18,8 +18,16 @@
 	--gray-chateau: #9ca3af;
 	--ebony: #0f172a;
 	--black: #000;
-	--nero-40%: rgba(255, 255, 255, 0.4);
+	--nero-40: rgba(255, 255, 255, 0.4);
 	--background: 0, 0%, 5%;
+
+	--tw-scale-x: 1.05;
+	--tw-scale-y: 1.05;
+	--tw-translate-x: 0;
+	--tw-translate-y: 0;
+	--tw-rotate: 0;
+	--tw-skew-x: 0;
+	--tw-skew-y: 0;
 }
 body {
 

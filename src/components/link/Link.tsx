@@ -1,6 +1,7 @@
 import React from 'react'
 import {Icon} from '../icon/Icon'
 import styled from "styled-components";
+import {theme} from "../styles/Theme";
 
 export const IconsLink = () => {
     return (
@@ -20,6 +21,9 @@ const LinkStyles = styled.div`
     }
     li {
         margin-right: 16px;
+        @media ${theme.media.mobile} {
+            margin-right: 8px;
+        }
         &:first-child {
             margin-left: 33px;
         }
@@ -27,6 +31,7 @@ const LinkStyles = styled.div`
         margin-right: 0;
         }
     }
+    
 `
 
 

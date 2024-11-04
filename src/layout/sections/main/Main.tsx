@@ -3,11 +3,14 @@ import styled from 'styled-components'
 import {FlexWrapper} from '../../../components/FlexWrapper'
 import {IconContact} from "../../../components/icon/Icon";
 import photo from '../../../assets/images/photo.png'
+import {theme} from "../../../components/styles/Theme";
+import {font} from "../../../components/styles/Common";
+import {Container} from "../../../components/Container";
 
 export const Main = () => {
     return (
         <StyledMain>
-            <FlexWrapper align={"center"} justify={"space-between"}>
+            <FlexWrapper align={"center"} justify={"space-between"} wrap={"wrap"}>
                 <MainBlock>
                     <span>Hi there, myself</span>
                     <h1>Ahammad Kabeer</h1>
@@ -49,15 +52,24 @@ const MainBlock = styled.div`
         line-height: 151%;
         color: var(--santas-gray);
         padding-bottom: 36px;
+        @media ${theme.media.mobile} {
+            font-weight: 200;
+            font-size: 1.5rem;
+        }
     }
 
     h1 {
+       //${font({family: "'Inter'", weight: 700, Fmin: 3.6, Fmax: 2.7,})}
         font-family: var(--font-family);
         font-weight: 700;
         font-size: 5.8rem;
         line-height: 103%;
         color: var(--catskill-white);
         padding-bottom: 12px;
+
+        @media ${theme.media.mobile} {
+            font-size: 3.5rem;
+        }
     }
 
     p {
@@ -67,6 +79,9 @@ const MainBlock = styled.div`
         line-height: 113%;
         color: var(--mischka);
         padding-bottom: 12px;
+        @media ${theme.media.mobile} {
+            font-size: 2.9rem;
+        }
     }
 
     .last-paragraph {
@@ -88,16 +103,11 @@ const StyledButton = styled.button`
     border: 1px solid var(--mirage);
     border-radius: 12px;
     padding: 14px 25px;
-    width: 152px;
     height: 48px;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
     background: rgba(255, 255, 255, 0);
     margin-right: 16px;
     cursor: pointer;
-
-    & div {
-
-    }
 
     & p {
         font-family: var(--font-family);
@@ -143,7 +153,7 @@ const ContainerButton = styled.div`
 const Photo = styled.img`
     width: 470px;
     height: 470px;
-    @media (max-width: 390px) {
+    @media ${theme.media.mobile} {
         display: none;
     }
 

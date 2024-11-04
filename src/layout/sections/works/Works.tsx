@@ -3,6 +3,7 @@ import styled from "styled-components";
 import {FlexWrapper} from "../../../components/FlexWrapper";
 import {StyledStripe} from "../../../components/stripe/Stripe";
 import {SectionTittle} from "../../../components/SectionTitle";
+import {theme} from "../../../components/styles/Theme";
 
 export const Works = () => {
     return (
@@ -11,7 +12,7 @@ export const Works = () => {
 
                 <SectionTittle>Selected Work</SectionTittle>
                 <StyledStripe margin={"0px 0 16px 0"} />
-            <FlexWrapper align={"center"} justify={"space-between"}>
+            <FlexWrapper align={"center"} justify={"space-between"} wrap={"wrap"}>
                     <ExperienceItem>
                         <h3>Menteor- A platform for
                             skill based one-to-one
@@ -47,10 +48,9 @@ export const Works = () => {
 
 const StyledWorks = styled.section`
     padding-bottom: 48px;
-`
-
-const Skill = styled.div`
-
+    @media ${theme.media.mobile} {
+   
+    }
 `
 
 const Experience = styled.div`
@@ -60,7 +60,7 @@ const Experience = styled.div`
     //gap: 16px;
 
     @media (max-width: 390px) {
-        flex-direction: column;
+        
     }
 `
 
@@ -72,10 +72,18 @@ const ExperienceItem = styled.div`
     height: 320px;
     backdrop-filter: blur(12px);
     background: var(--woodsmoke);
+    transition: transform 0.3s ease;
+    &:hover {
+        transform: translateX(5px);
+    }
+    @media ${theme.media.mobile} {
+        padding: 21px;
+        width: 100%;
+    }
     h3 {
         font-family: var(--font-family);
         font-weight: 600;
-        font-size: 23px;
+        font-size: 2.3rem;
         line-height: 139%;
         color: var(--nero);
         padding-bottom: 12px;
@@ -83,7 +91,7 @@ const ExperienceItem = styled.div`
     p {
         font-family: var(--font-family);
         font-weight: 400;
-        font-size: 18px;
+        font-size: 1.8rem;
         line-height: 148%;
         color: var(--emperor);
         padding-bottom: 12px;
@@ -91,7 +99,7 @@ const ExperienceItem = styled.div`
     a {
         font-family: var(--font-family);
         font-weight: 500;
-        font-size: 16px;
+        font-size: 1.6rem;
         line-height: 169%;
         text-align: center;
         color: var(--santas-gray);

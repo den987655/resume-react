@@ -10,6 +10,8 @@ export const GlobalStyles = createGlobalStyle`
 	}
 	
 	body {
+        margin: 0;
+        font-family: "Inter", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 		background-color: #0d0d0d;
 	}
 	a {
@@ -20,5 +22,14 @@ export const GlobalStyles = createGlobalStyle`
     
     li {
         text-decoration: none;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    button {
+        background-color: unset;
+        border: none;
     }
 `
