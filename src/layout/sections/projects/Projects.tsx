@@ -1,5 +1,4 @@
 import React from 'react';
-import {FlexWrapper} from "../../../components/FlexWrapper";
 import styled from "styled-components";
 import {StyledStripe} from "../../../components/stripe/Stripe";
 import {SectionTittle} from "../../../components/SectionTitle";
@@ -8,8 +7,7 @@ import photoOne from '../../../assets/images/image1.png'
 import photoTwo from '../../../assets/images/image2.png'
 import photoThree from '../../../assets/images/image3.png'
 import {GridWrapper} from "../../../components/GridWrapper";
-import {theme} from "../../../components/styles/Theme";
-import {Container} from "../../../components/Container";
+
 
 export const Projects = () => {
     return (

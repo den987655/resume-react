@@ -76,5 +76,9 @@ const ProjectImg = styled.div`
     img {
         width: 230px;
         object-fit: contain;
+        transition: transform 0.3s ease;
+        &:hover {
+            transform: rotate(-5deg);
+        }
     }
 `

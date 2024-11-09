@@ -4,29 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f0c4b80-1a60-4704-ad29-0da563897859" name="Changes" comment="add structure">
-      <change afterPath="$PROJECT_DIR$/src/components/Container.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/slider/Slider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/styles/Common.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/styles/Theme.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/header/mobileMenu/MobileMenu.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/sections/reviews/Reviews.tsx" afterDir="false" />
+    <list default="true" id="2f0c4b80-1a60-4704-ad29-0da563897859" name="Changes" comment="add respons">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FlexWrapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FlexWrapper.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GridWrapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GridWrapper.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SkillsItem.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/link/Link.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/link/Link.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/menu/Menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/headerMenu/HeaderMenu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/footer/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/sections/main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/main/Main.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/sections/projects/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/projects/Projects.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/sections/projects/project/Project.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/projects/project/Project.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/sections/works/Works.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/works/Works.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/GlobalStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/GlobalStyles.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +122,10 @@
       <workItem from="1730574209427" duration="5066000" />
       <workItem from="1730646465936" duration="20230000" />
       <workItem from="1730710647823" duration="7649000" />
-      <workItem from="1730722329663" duration="1921000" />
+      <workItem from="1730722329663" duration="6043000" />
+      <workItem from="1730831366081" duration="616000" />
+      <workItem from="1731114938857" duration="24000" />
+      <workItem from="1731157940416" duration="708000" />
     </task>
     <task id="LOCAL-00001" summary="add project">
       <option name="closed" value="true" />
@@ -175,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730548873083</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add respons">
+      <option name="closed" value="true" />
+      <created>1730725248056</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1730725248056</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +195,7 @@
     <MESSAGE value="add header" />
     <MESSAGE value="add section project" />
     <MESSAGE value="add structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="add structure" />
+    <MESSAGE value="add respons" />
+    <option name="LAST_COMMIT_MESSAGE" value="add respons" />
   </component>
 </project>
