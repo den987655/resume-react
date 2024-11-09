@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2f0c4b80-1a60-4704-ad29-0da563897859" name="Changes" comment="add respons">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/projects/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/projects/Projects.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/projects/project/Project.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/projects/project/Project.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;den987655&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/den987655/resume-react.git&quot;,
+    &quot;accountId&quot;: &quot;20668ce7-0f96-4486-9217-1248e1791f64&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2nR68ZyerEy0KxnNw0KCBJEX87r" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/react/resume-react/src/layout/header&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;E:\\react\\resume-react\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\react\resume-react\src\layout\header" />
+      <recent name="E:\react\resume-react\public" />
+      <recent name="E:\react\resume-react\src\components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\react\resume-react\src\layout\header" />
+      <recent name="E:\react\resume-react\src\layout\sections" />
+      <recent name="E:\react\resume-react\src\assets\images" />
+      <recent name="E:\react\resume-react\public" />
+      <recent name="E:\react\resume-react\src" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.19072.23" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f0c4b80-1a60-4704-ad29-0da563897859" name="Changes" comment="" />
+      <created>1728923383671</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728923383671</updated>
+      <workItem from="1729091146884" duration="434000" />
+      <workItem from="1729091595803" duration="2153000" />
+      <workItem from="1729094850283" duration="5538000" />
+      <workItem from="1729100962719" duration="947000" />
+      <workItem from="1729101935362" duration="265000" />
+      <workItem from="1729102215823" duration="686000" />
+      <workItem from="1729102922484" duration="86000" />
+      <workItem from="1729103020567" duration="57000" />
+      <workItem from="1729103093579" duration="167000" />
+      <workItem from="1729103275449" duration="241000" />
+      <workItem from="1729103532103" duration="42000" />
+      <workItem from="1729103616626" duration="3283000" />
+      <workItem from="1729147044986" duration="7487000" />
+      <workItem from="1729196367916" duration="6540000" />
+      <workItem from="1729351099248" duration="8504000" />
+      <workItem from="1729600655305" duration="434000" />
+      <workItem from="1729609959496" duration="8267000" />
+      <workItem from="1729788827760" duration="4753000" />
+      <workItem from="1729857469634" duration="5743000" />
+      <workItem from="1729935134950" duration="9016000" />
+      <workItem from="1729958286436" duration="10324000" />
+      <workItem from="1730104693926" duration="42096000" />
+      <workItem from="1730284884365" duration="909000" />
+      <workItem from="1730285814375" duration="24940000" />
+      <workItem from="1730401470352" duration="8507000" />
+      <workItem from="1730542794924" duration="14729000" />
+      <workItem from="1730574209427" duration="5066000" />
+      <workItem from="1730646465936" duration="20230000" />
+      <workItem from="1730710647823" duration="7649000" />
+      <workItem from="1730722329663" duration="6043000" />
+      <workItem from="1730831366081" duration="616000" />
+      <workItem from="1731114938857" duration="24000" />
+      <workItem from="1731157940416" duration="708000" />
+    </task>
+    <task id="LOCAL-00001" summary="add project">
+      <option name="closed" value="true" />
+      <created>1728923491664</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728923491664</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add header">
+      <option name="closed" value="true" />
+      <created>1728923806811</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728923806811</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add section project">
+      <option name="closed" value="true" />
+      <created>1730104993668</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730104993668</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add structure">
+      <option name="closed" value="true" />
+      <created>1730548873083</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730548873083</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add respons">
+      <option name="closed" value="true" />
+      <created>1730725248056</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1730725248056</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add project" />
+    <MESSAGE value="add header" />
+    <MESSAGE value="add section project" />
+    <MESSAGE value="add structure" />
+    <MESSAGE value="add respons" />
+    <option name="LAST_COMMIT_MESSAGE" value="add respons" />
+  </component>
+</project>
